@@ -1,12 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: "Kapilan's Developer Portfolio",
+    siteUrl:  process.env.GATSBY_DEV_SITEURL,
   },
   plugins: [
+    // {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //   options: {
+    //     trackingId: "",
+    //   },
+    // },
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve:  'gatsby-plugin-postcss',
       options: {
-        trackingId: "",
+        postCssPlugins: [require("tailwindcss")],
       },
     },
     "gatsby-plugin-sharp",
@@ -38,5 +45,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: 'gatsby-plugin-purgecss',
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      }
+    }
   ],
 };
