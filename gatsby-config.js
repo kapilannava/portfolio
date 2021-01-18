@@ -1,7 +1,11 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "Kapilan's Developer Portfolio",
-    siteUrl:  process.env.GATSBY_DEV_SITEURL,
+    siteUrl:  process.env.GATSBY_PRODUCTION_SITEURL,
   },
   plugins: [
     // {
