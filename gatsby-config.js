@@ -7,6 +7,9 @@ module.exports = {
     title: "Kapilan's Developer Portfolio",
     siteUrl:  process.env.GATSBY_PRODUCTION_SITEURL,
   },
+  flags: {
+    DEV_SSR: false
+  },
   plugins: [
     // {
     //   resolve: "gatsby-plugin-google-analytics",
