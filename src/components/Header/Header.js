@@ -34,7 +34,7 @@ function Header(){
             </a>
 
             <a className="px-2 py-1 text-white semibold rounded hover:bg-gray-700" href="#">
-                Lols
+                New item
             </a>
         </div>
 
