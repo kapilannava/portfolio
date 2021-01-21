@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from '../components/Header/Header'
 import Button from '../components/Button/Button'
+import Footer from '../components/Footer/Footer'
 
 function IndexPage(){
   return (
@@ -23,6 +24,7 @@ function IndexPage(){
   <Button textColor="default" size="default" bgColor="green">This is cool</Button>
   </p>
   </div>
+  <Footer />
 </main>
   )
 }
