@@ -4,6 +4,6 @@
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="60" />
 </p>
 <h1 align="center">
-  Gatsby Blog + Tailwind CSS
+  My Developer Portfolio using Gatsby and Tailwind CSS
 </h1>
 
