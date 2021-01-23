@@ -2,6 +2,7 @@ import * as React from "react"
 import Header from '../components/Header/Header'
 import Button from '../components/Button/Button'
 import Footer from '../components/Footer/Footer'
+import Hero from '../components/Hero/Hero'
 
 function IndexPage(){
   return (
@@ -10,6 +11,7 @@ function IndexPage(){
 <Header />
 
   <title>Home Page</title>
+  <Hero />
   <div className="p-8">
   <p className="mt-8">
   <Button textColor="red" size="xl" bgColor="blue" className="rounded">This is cool</Button>
